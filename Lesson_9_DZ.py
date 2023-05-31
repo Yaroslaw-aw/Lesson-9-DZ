@@ -19,7 +19,7 @@ def dz_task2():
     print(matrix)
     result = np.corrcoef(matrix)
     print(result)
-    for i in range(5):
+    for i in range(5 - 1):
         for j in range(i + 1, 5):
             answer = np.array_equal(matrix[i], matrix[j], equal_nan=False)
             if answer == True:
